@@ -3,7 +3,8 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 logo: "/assets/img/logo.png"
 
-url: https://propeller-columbus.github.io/reference-docs/
+baseurl: "/reference-docs"
+url: "https://propeller-columbus.github.io/"
 
 aux_links:
   Proximity Website: https://columbuspropeller.com

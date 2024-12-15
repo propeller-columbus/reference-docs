@@ -1,6 +1,6 @@
 title: Propeller Reference Docs
 description: Reference documentation for equipment, processes, and policy at Propeller makerspace.
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 logo: "/assets/img/logo.png"
 
 baseurl: "/reference-docs"

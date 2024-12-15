@@ -1,8 +1,10 @@
 title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+logo: "/assets/img/logo.png"
 
-url: https://just-the-docs.github.io
+url: https://propeller-columbus.github.io/reference-docs/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Proximity Website: https://columbuspropeller.com
+

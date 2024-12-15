@@ -1,7 +1,7 @@
 ---
 title: GCC Laser Engraver
 parent: Guides
-nav_order: 1
+nav_order: 2
 ---
 # GCC LaserPro CO2 Laser Engraver Operation Instructions
 {: .no_toc}

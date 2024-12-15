@@ -13,7 +13,7 @@ nav_order: 3
 ## 3D Print Lab
 - Bambu P1S and X1C
 - Ender Max (2 printers)
-- Ender 3 (v1/v2) (2 printers)
+- Ender 3 series (2 printers)
 
 ## Crafting Room
 - CO² laser engraver

@@ -12,7 +12,7 @@ nav_order: 2
 {:toc}
 
 ## Main power-on checklist:
-- Laser key is turned off
+- Laser power key is turned off (counter-clockwise)
 - Work bed is clear
 - Engraver is connected to computer
 - Door is closed
@@ -49,3 +49,22 @@ nav_order: 2
 - Once focus is set, leave the autofocus confirmation screen with the back button
 
 ![](../../../assets/img/gcc/gcc8.png)
+
+- Before running laser, turn on fume extractor. Ensure it is running. Not only is this good for your health, but the laser lens is protected from soot buildup. 
+
+## Software
+The GCC laser engraver acts like a regular printer. To make use of it, we need to use two pieces of software in conjuntion with each other: A graphics application and the proprietary print driver used to control the laser.
+
+### Corel Draw
+Corel Draw is the graphics application we have setup to use the laser. This application can handle both vector (shapes defined by lines) and raster graphics (shapes defined by points in a grid). It is important to note that the laser will only follow vector lines if the "hairline" thickness is used within Draw, otherwise, vectors will be treated as a raster image by the laser.
+
+A free version can be installed on your home computer to get you acquainted. Alternativley, you can use a graphics application of your choice and import your files into Corel. No guarantees can be made on file type compatibility. For instance, one version of Corel Draw may have trouble importing a file that was exported from a different version. 
+
+#### Page Setup
+
+#### Tutorials
+We can't cover the complete usage of Corel Draw. We'll leave it to you to master this application. Free versions can be installed on your personal computer and SVG and DXF files can be ran off from the the laser engraver computer. Please note, there can be differences between versions of Corel Draw (i.e. dimensional differences or incompatibilities between exported files). Here are some links to get you started.
+
+### GCC Print Driver
+#### Vector vs. Raster
+#### Settings

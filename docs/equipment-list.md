@@ -11,7 +11,7 @@ nav_order: 3
 {:toc}
 
 ## 3D Print Lab
-- Bambu P1S and X1C, each with Automatic Material Selector
+- Bambu P1S and X1C, each with Automatic Material System
 - Ender Max (2 printers)
 - Ender 3 series (2 printers)
 - Prusa i3 MK3

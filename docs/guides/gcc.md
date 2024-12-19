@@ -46,7 +46,9 @@ nav_order: 2
 
 - Now that surface focus is found, you may desire to focus laser beneath parts surface (cutting operations) or above the surface (wider, blurrier burn area). The focus can be adjust from here by raising/lowering the z axis with corresponding up/down arrow buttons surrounding the “Auto Focus” buttons.
 
-- Once focus is set, leave the autofocus confirmation screen with the back button
+- Once focus is set, leave the autofocus confirmation screen with the back button.
+
+- Return autofocus probe to storage area.
 
 ![](../../../assets/img/gcc/gcc8.png)
 

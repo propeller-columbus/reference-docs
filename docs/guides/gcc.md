@@ -26,17 +26,17 @@ nav_order: 2
 
 ![](../../../assets/img/gcc/gcc2.png)
 
-- Place your workpiece on the bed.
+- Open door; place your workpiece on the bed.
+
+- Ensure tool head will clear work piece. If needed, lower the bed with the down arrow under the “Auto Focus” button
+
+![](../../../assets/img/gcc/gcc4.png)
 
 - Position laser head over the workpiece by using the arrow keys surrounding the “Enter button”. If on the main screen, you may need to press an arrow key twice to begin manual XY positioning.
 
 ![](../../../assets/img/gcc/gcc3.png)
 
-- If workpiece is too close too laser head, lower the bed with the down arrow under the “Auto Focus” button
-
-![](../../../assets/img/gcc/gcc4.png)
-
-- Install the autofocus probe to the tool head
+- Find the autofocus probe in magnetic holder on the left side of machine. Install probe on the right side of the tool head. Ensure pins are aligned properly and insert firmly. Ensure it's fully seated and that the probe is perpindicular to the bed.
 
 ![](../../../assets/img/gcc/gcc5.png)
 

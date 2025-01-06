@@ -1,5 +1,5 @@
 ---
-title: GCC Laser Engraver
+title: GCC Spirit GLS Laser Engraver
 parent: Guides
 nav_order: 2
 ---
@@ -55,18 +55,28 @@ nav_order: 2
 - Before running laser, turn on fume extractor. Ensure it is running. Not only is this good for your health, but it also mitigates soot/particulate buildup on the laser lens and mirror. 
 
 ## Software
-The GCC laser engraver acts like a regular printer. To make use of it, we need to use two pieces of software in conjuntion with each other: A graphics application and the proprietary print driver used to control the laser.
+The GCC laser engraver acts like a regular printer. To make use of it, we need to use two pieces of software in conjuntion with each other: A graphics application and the proprietary GCC Spirit print driver used to control the laser.
 
-### Corel Draw
-Corel Draw is the graphics application we have setup to use the laser. This application can handle both vector (shapes defined by lines) and raster graphics (shapes defined by points in a grid). It is important to note that the laser will only follow vector lines if the "hairline" thickness is used within Draw, otherwise, vectors will be treated as a raster image by the laser.
+### Vector graphics applications
+On the laser engraver workstation, there are two primary graphics applications: CorelDraw and Inkscape. CorelDraw is a paid application, while Inkscape is a featureful, free alternative. We can't cover their full usage, so feel free to experiment with them or read through their respective documentation.
 
-A free version can be installed on your home computer to get you acquainted. Alternativley, you can use a graphics application of your choice and import your files into Corel. No guarantees can be made on file type compatibility. For instance, one version of Corel Draw may have trouble importing a file that was exported from a different version. 
-
-#### Page Setup
-
-#### Tutorials
-We can't cover the complete usage of Corel Draw. We'll leave it to you to master this application. Free versions can be installed on your personal computer and SVG and DXF files can be ran off from the the laser engraver computer. Please note, there can be differences between versions of Corel Draw (i.e. dimensional differences or incompatibilities between exported files). Here are some links to get you started.
+[CorelDraw](https://www.coreldraw.com/en/learn/academy/)
+[Inkscape](https://inkscape.org/learn/)
 
 ### GCC Print Driver
-#### Vector vs. Raster
-#### Settings
+There are many settings that can be adjusted to suit your needs. The easiest way to get started is using black and white mode and adjusting pen settings for the black pen between separate print jobs. Please consult the GCC Spirit user's manual for detailed information on how to setup the print driver for your job.
+
+[GCC Spirit manual/ print driver options](https://www.gccworld.com/data/file/upload/UserManual/Laser/Spirit-AC_User-Manual.pdf#page=141)
+
+## Vector vs. Raster
+Vector graphics and raster graphics are fundamentaly different. It's important to understand what each are and how the GCC Spirit print driver will treat your files.
+
+Raster graphics follow a set grid where points of light are defined. Raster graphics are composed of vector paths rather than individual points on a grid. The engraver will follow a vector path if it's set to hairline width in your graphics software. This is especially useful for cuts. Paths wider than hairline width and imported images will be rasterized. Raster procedures by the laser will be performed by moving the head horizontally and scanning vertically across the workpieces; similar to how an inkjet printer works.
+
+## External resources
+[GCC Spirit Manual](https://www.gccworld.com/data/file/upload/UserManual/Laser/Spirit-AC_User-Manual.pdf)
+*NOTE: We do not have the fiber laser option and maintenance tasks cannot be performed without explicit permission.*
+
+[Inkscape download (Windows, Mac, and Linux)](https://inkscape.org/release/)
+
+[CorelDraw free trial](https://www.coreldraw.com/en/free-trials/)

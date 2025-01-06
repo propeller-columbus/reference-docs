@@ -61,6 +61,7 @@ The GCC laser engraver acts like a regular printer. To make use of it, we need t
 On the laser engraver workstation, there are two primary graphics applications: CorelDraw and Inkscape. CorelDraw is a paid application, while Inkscape is a featureful, free alternative. We can't cover their full usage, so feel free to experiment with them or read through their respective documentation.
 
 [CorelDraw](https://www.coreldraw.com/en/learn/academy/)
+
 [Inkscape](https://inkscape.org/learn/)
 
 ### GCC Print Driver

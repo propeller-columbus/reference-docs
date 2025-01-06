@@ -11,28 +11,28 @@ nav_order: 2
 1. TOC
 {:toc}
 
-## Main power-on checklist:
+## Power-on checklist:
 - Laser power key is turned off (counter-clockwise)
 - Work bed is clear
 - Engraver is connected to computer
 - Door is closed
 
 ## Setup
-- Turn on main power switch (located on right side of machine), wait until manufacturer logo is no longer displayed on screen
+- Turn on main power switch (located on right side of machine).
   
 ![](../../../assets/img/gcc/gcc1.png)
 
-- Wait for tool head to park in home position at the top left corner of work bed
+- Wait for homing procedure to finish. The tool head will move to bottom left and then park in home position at the top left corner of the work bed.
 
 ![](../../../assets/img/gcc/gcc2.png)
 
-- Open door; place your workpiece on the bed.
+- Open door; Ensure tool head will clear work piece. If needed, lower the bed with the down arrow under the “Auto Focus” button.
 
-- Ensure tool head will clear work piece. If needed, lower the bed with the down arrow under the “Auto Focus” button
+- Place workpiece on the bed.
 
 ![](../../../assets/img/gcc/gcc4.png)
 
-- Position laser head over the workpiece by using the arrow keys surrounding the “Enter button”. If on the main screen, you may need to press an arrow key twice to begin manual XY positioning.
+- Position laser head over the workpiece. This can be done by manually moving the toolhead with your hand or by using the arrow buttons around the "Enter" button on the control pad.
 
 ![](../../../assets/img/gcc/gcc3.png)
 
@@ -46,13 +46,13 @@ nav_order: 2
 
 - Now that surface focus is found, you may desire to focus laser beneath parts surface (cutting operations) or above the surface (wider, blurrier burn area). The focus can be adjust from here by raising/lowering the z axis with corresponding up/down arrow buttons surrounding the “Auto Focus” buttons.
 
-- Once focus is set, leave the autofocus confirmation screen with the back button.
+- Once desired focus is set, leave the autofocus confirmation screen with the back button (top left of control pad, labeled on screen as "F1).
 
 - Return autofocus probe to storage area.
 
 ![](../../../assets/img/gcc/gcc8.png)
 
-- Before running laser, turn on fume extractor. Ensure it is running. Not only is this good for your health, but the laser lens is protected from soot buildup. 
+- Before running laser, turn on fume extractor. Ensure it is running. Not only is this good for your health, but it also mitigates soot/particulate buildup on the laser lens and mirror. 
 
 ## Software
 The GCC laser engraver acts like a regular printer. To make use of it, we need to use two pieces of software in conjuntion with each other: A graphics application and the proprietary print driver used to control the laser.

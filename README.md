@@ -1,3 +1,5 @@
+[github pages](https://propeller-columbus.github.io/reference-docs/)
+
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
